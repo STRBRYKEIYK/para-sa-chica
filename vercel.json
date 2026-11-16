@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/second", "destination": "/index.html" },
+    { "source": "/second/", "destination": "/index.html" },
+    { "source": "/second/assets/:file", "destination": "/assets/:file" }
+  ]
+}
